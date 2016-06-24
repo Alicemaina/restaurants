@@ -13,16 +13,65 @@ td {
     padding: 10px 15px;
 }
 header {
-    background-image: url(../images/img6.jpg);
+    background-image: url(../images/imag9.jpg);
+    height: 40%;
 }
 .fine {
     font: left;
-    display: block;
+    display: 1px block;
     margin-bottom: 1%;
-    max-width: 100%
+    max-width: 10%;
+    padding: 20px
+}
+.winning {
+    font: right;
+    display: block;
+    margin: 1%;
+    border: 1px solid;
+    padding: 20px;
+}
+.aisle {
+    font: left;
+    display: block;
+    margin: 5%;
+    border: 1px solid;
+    padding: 10px
 }
 h1 {
     font-stretch: semi-condensed;
     font-family: 'Tangerine', serif;
 }
-section {}
+.conteiner,
+.grid {
+    width: 100%;
+}
+
+}
+.grid,
+.col-1-2-3,
+.col-2-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+.col-1-3 {
+    width: 33.33%;
+}
+.col-2-3 {
+    width: 66.66%;
+}
+img {
+    height: 20%
+}
+.cleaefix {
+    clear: both;
+}
+.primary {
+    display: inline-block;
+}
